@@ -1,0 +1,268 @@
+body{
+    background: linear-gradient(90deg, #3415e0, #477ef5, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    transform: translate3d(0, 0, 0);
+    }
+    @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }   
+}
+.t1 th, td {
+    border: 1px solid rgb(239, 253, 46);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .t2 th, td {
+    border: 1px solid rgb(46, 253, 108);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .t3 th, td {
+    border: 1px solid rgb(35, 12, 165);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .t4 th, td {
+    border: 1px solid rgb(154, 156, 124);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .t5 th, td {
+    border: 1px solid rgb(46, 194, 253);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .t6 th, td {
+    border: 1px solid rgb(252, 103, 4);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .t7 th, td {
+    border: 1px solid rgb(253, 46, 243);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .t8 th, td {
+    border: 1px solid rgb(105, 253, 46);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .p1{
+    font-size: 50px;
+    background-color: #3415e0;
+    color: red;
+    font-family: cursive;
+    text-align: center;
+  }
+
+table{
+    font-size: 24px;
+    border: 5px double blueviolet;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  th{
+    border: 1px solid rgb(255, 2, 2);
+    text-align: center;
+  }
+
+  th,td{
+        border: 1px solid lightslategray;
+        width: 25%;
+        height: 1cm;
+  }
+
+  .t1 td:hover{
+    background-image: url(https://i.gifer.com/embedded/download/V6ux.gif);
+    font-weight: bold;
+    text-align: center;
+    color: #477ef5;
+    text-transform: uppercase;
+    font-size: 1.1em;
+  }
+ .t2 td:hover{
+    background-image: url(https://img1.picmix.com/output/stamp/normal/8/9/6/9/679698_979a1.gif);
+    font-weight: bold;
+    text-align: center;
+    color: #5e5c5c;
+    text-transform: uppercase;
+    font-size: 1.1em;
+  }
+  .t3 td:hover{
+    background-image: url(https://img1.picmix.com/output/pic/normal/9/6/3/1/7411369_ac2b1.gif);
+    font-weight: bold;
+    text-align: center;
+    color: #524fec;
+    text-transform: uppercase;
+    font-size: 1.1em;
+  }
+  .t4 td:hover{
+    background-image: url(https://img1.picmix.com/output/pic/normal/9/7/7/0/9730779_e4e3b.gif);
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.1em;
+  }
+  .t5 td:hover{
+    background-image: url(https://i.gifer.com/SBMP.gif);
+    font-weight: bold;
+    text-align: center;
+    color: #da2121;
+    text-transform: uppercase;
+    font-size: 1.1em;
+  }
+  .t6 td:hover{
+    background-image: url(https://i.pinimg.com/originals/a6/38/8a/a6388a64a4d80bff733d580303c06433.gif);
+    font-weight: bold;
+    text-align: center;
+    color: #2e423d;
+    text-transform: uppercase;
+    font-size: 1.1em;
+  }
+  .t7 td:hover{
+    background-image: url(https://media.tenor.com/mLEy2V72xoAAAAAM/%D0%B0%D0%BD%D0%B8%D0%BC%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9-%D1%84%D0%BE%D0%BD-%D0%B1%D0%BB%D1%91%D1%81%D1%82%D0%BA%D0%B8.gif);
+    font-weight: bold;
+    text-align: center;
+    color: #7e66e9;
+    text-transform: uppercase;
+    font-size: 1.1em;
+  }
+  .t8 td:hover{
+    background-image: url(https://i.gifer.com/WSPQ.gif);
+    font-weight: bold;
+    text-align: center;
+    color: #b3ccb6;
+    text-transform: uppercase;
+    font-size: 1.1em;
+  }
+
+.t1 tr:nth-child(even){
+    background-color: chartreuse;
+  }
+
+.t1 tr:nth-child(odd){
+    background-color: aqua;
+  }
+  .t2 tr:nth-child(even){
+    background-color: rgb(109, 13, 69);
+  }
+
+.t2 tr:nth-child(odd){
+    background-color: rgb(71, 120, 253);
+  }
+  .t3 tr:nth-child(even){
+    background-color: rgb(202, 230, 127);
+  }
+
+.t3 tr:nth-child(odd){
+    background-color: rgb(253, 54, 210);
+  }
+  .t4 tr:nth-child(even){
+    background-color: rgb(207, 46, 87);
+  }
+
+.t4 tr:nth-child(odd){
+    background-color: rgb(47, 31, 116);
+  }
+  .t5 tr:nth-child(even){
+    background-color: rgb(177, 182, 171);
+  }
+
+.t5 tr:nth-child(odd){
+    background-color: rgb(4, 65, 9);
+  }
+  .t6 tr:nth-child(even){
+    background-color: rgb(183, 214, 3);
+  }
+
+.t6 tr:nth-child(odd){
+    background-color: aqua;
+  }
+  .t7 tr:nth-child(even){
+    background-color: chartreuse;
+  }
+
+.t7 tr:nth-child(odd){
+    background-color: rgb(170, 111, 224);
+  }
+  .t8 tr:nth-child(even){
+    background-color: rgb(167, 22, 54);
+  }
+
+.t8 tr:nth-child(odd){
+    background-color: rgb(197, 224, 224);
+  }
+
+
+  .c1{
+    border: 2px dashed red;
+    text-align: left;
+    vertical-align: bottom;
+  }
+
+  .cap1{
+    background: linear-gradient(to right, Red, Orange, Yellow, Green, Blue, Indigo, Violet);
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  .cap2{
+    background: linear-gradient(90deg,#23d5ab, #23a6d5, #477ef5, #3415e0 );
+    font-size: 36px;
+    text-transform: uppercase;
+    color: black;
+  
+  }
+  .cap3{
+    background: linear-gradient(90deg,#FF00FF, #23a6d5, #477ef5, #3415e0 );
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  .cap4{
+    background: linear-gradient(to right, Red, Orange, Yellow, Green, Blue, Indigo, Violet);
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  .cap5{
+    background: linear-gradient(to right, Red, Orange, Yellow, Green, Blue, Indigo, Violet);
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  .cap6{
+    background: linear-gradient(to right, Red, Orange, Yellow, Green, Blue, Indigo, Violet);
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  .cap7{
+    background: linear-gradient(to right, Red, Orange, Yellow, Green, Blue, Indigo, Violet);
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  .cap8{
+    background: linear-gradient(to right, Red, Orange, Yellow, Green, Blue, Indigo, Violet);
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+
+
